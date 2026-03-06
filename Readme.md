@@ -1,0 +1,3 @@
+ file with a brief description of your project and instructions on how to view or run it.
+
+My project is based on an IT institutional website designed to capture users’ attention and encourage them to sign up for the services we offer while exploring and learning different technologies. The website uses a combination of engaging colors and well-structured content to create an appealing and user-friendly experience for visitors. The project can be easily viewed by running the index.html file using a Live Server.
