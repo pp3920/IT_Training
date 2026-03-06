@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#header-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 120px;
+    padding: 30px;
+}
+
+.headerofPage {
+    background-color: rgb(128, 121, 129);
+    height: 100px;
+    width: 900px;
+    place-items: center;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg');
+  background-repeat: no-repeat;
+  background-position: top 1px left 20px; /* Positions logo 20px from top and right */
+  background-size: contain; /* Ensures logo scales properly */
+  height: 80px; /* Define height of the logo area */
+  width: 100%;
+
+}
+
+.hero-section {
+   
+    height: 400px;
+    text-align: right;
+    padding-top: 30px;
+    padding-right: 20px;
+   background-image: url("https://images.unsplash.com/photo-1522202176988-66273c2fd55f");
+  background-size: cover;
+  background-position: center;
+   object-fit: cover;
+
+
+}
+
+.AboutUs{
+    background-color: bisque;
+    padding: 20px;
+    place-items: center;
+}
+
+.container {
+    
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(3, 1fr);
+
+    column-gap: 5px;
+    justify-content: center;
+
+
+}
+
+.items {
+    background-color: aqua;
+    padding-top: 20px;
+    place-items: center;
+}
+
+
+.ContactForm {
+      background-color: bisque;
+      padding-top: 20px;
+    height: 180px;
+    text-align: center;
+}
+
+
+
+input:invalid {
+    border: 2px solid red;
+}
+
+input:valid {
+    border: 2px solid green;
+}
+
+
+img {
+    left: 0px;
+    top: 0px;
+    z-index: -10;
+}
+
+.h3,
+.ul {
+    margin: 0;
+}
+
+button:focus {
+  outline: 2px dashed blue;
+}
+
+nav a {
+color: rgb(10, 232, 240);
+font-weight: 700;
+text-decoration: none;
+}
+
+nav a:hover {
+color: slateblue;
+font-weight: 700;
+text-decoration: none;
+}
+
+footer {  
+background-color: antiquewhite;
+place-items: right;
+}
+
+
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+}
